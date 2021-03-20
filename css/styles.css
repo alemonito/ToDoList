@@ -1,0 +1,50 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /** Reset para REMS - 62.5% = 10px de 16px **/
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    background: linear-gradient(to left, #654ea3, #eaafc8);
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+}
+.area{
+    font-family: 'Roboto', sans-serif; ;
+    border-radius: 2px;
+    border: none;
+    background-color: #e5e8e8;
+}
+
+.boton{
+    font-family: 'Roboto', sans-serif; ;
+    background-color: beige;
+    border: none;
+    color: black;
+    padding: 12px 12px;
+    text-align: center;
+    display: block;
+    font-size: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.boton:hover{
+    background-color: #9370DB;
+    color: white;
+}
+
+.espacio{
+    margin-left: 8px;
+    display: inline;
+    color: #eaafc8;
+    cursor: pointer;
+}
