@@ -1,0 +1,101 @@
+body, html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.form-box{
+    border-radius: 25px;
+    width: 300px;
+    padding: 40px;
+    background-color: rgb(26, 48, 49);
+    text-align: center;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.459);
+}
+
+.form-title{
+    color: rgb(248, 246, 137);
+    font-family:sans-serif
+
+}
+
+.form-box input[type="text"],
+.form-box input[type="password"],
+.form-box button[type="submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 48px auto;
+    padding: 15px 22px;
+    text-align: center;
+    border: 2px solid white;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+.form-box input[type="text"]:focus,
+.form-box input[type="password"]:focus{
+    width: 250px;
+    border-color: #fff;
+}
+
+.form-box button[type="submit"]{
+    border: 0;
+    background: #26cfb3;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+}
+
+.form-box button[type="submit"]:hover{
+
+    background: none;
+}
+/*registro*/
+.form-box-registro{
+    border-radius: 25px;
+    width: 300px;
+    padding: 40px;
+    background-color: rgb(26, 48, 49);
+    text-align: center;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.459);
+}
+.form-box-registro input[type="text"]:focus,
+.form-box-registro input[type="password"]:focus{
+    width: 250px;
+    border-color: #fff;
+}
+.form-box-registro input[type="text"],
+.form-box-registro input[type="password"],
+.form-box-registro button[type="submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 42px auto;
+    padding: 12px 22px;
+    text-align: center;
+    border: 2px solid white;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+.form-box-registro button[type="submit"]{
+    border: 0;
+    background: #26cfb3;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+}
