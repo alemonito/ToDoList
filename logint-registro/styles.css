@@ -18,7 +18,7 @@ body{
     border-radius: 25px;
     width: 300px;
     padding: 40px;
-    background-color: #CEE5D0;
+    background-color: #c3dcd1;
     text-align: center;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.459);
 }
@@ -38,10 +38,10 @@ body{
     margin: 48px auto;
     padding: 15px 22px;
     text-align: center;
-    border: 1px solid white;
+    border: 1px solid #c59881ad;
     width: 200px;
     outline: none;
-    color: white;
+    color: #5d7d82;
     border-radius: 10px;
     transition: 0.25s;
 }
@@ -49,14 +49,16 @@ body{
 .form-box input[type="text"]:focus,
 .form-box input[type="password"]:focus{
     width: 250px;
-    border-color: #fff;
+    border-color: #B4846C;
 }
 
+.form-box button[type="text"],
 .form-box button[type="submit"]{
     border: 0;
     background: #eea781;
     cursor: pointer;
-    border: 1px solid #ffffff;
+    border: 1px solid #c59881ad;
+    color: white;
 }
 
 .form-box button[type="submit"]:hover{
@@ -68,14 +70,14 @@ body{
     border-radius: 25px;
     width: 300px;
     padding: 40px;
-    background-color: #CEE5D0;
+    background-color: #c3dcd1;
     text-align: center;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.459);
 }
 .form-box-registro input[type="text"]:focus,
 .form-box-registro input[type="password"]:focus{
     width: 250px;
-    border-color: #fff;
+    border-color: #B4846C;
 }
 .form-box-registro input[type="text"],
 .form-box-registro input[type="password"],
@@ -86,16 +88,28 @@ body{
     margin: 42px auto;
     padding: 12px 22px;
     text-align: center;
-    border: 1px solid white;
+    border: 1px solid #c59881ad;
     width: 200px;
     outline: none;
-    color: white;
+    color: #5d7d82;
     border-radius: 10px;
     transition: 0.25s;
 }
+.form-box-registro button[type="text"],
 .form-box-registro button[type="submit"]{
     border: 0;
     background: #eea781;
     cursor: pointer;
-    border: 1px solid #ffffff;
+    border: 1px solid #c59881ad;
+    color: white;
+}
+.form-box-registro button[type="submit"]:hover{
+
+    background: none;
+}
+.form-box a {
+    color: #B4846C;
+    text-decoration: none;
+    font-size: 16px;
+    font-family:sans-serif
 }
